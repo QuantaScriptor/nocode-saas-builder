@@ -1,0 +1,24 @@
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend services for the No-Code SaaS Web App Builder",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.4.1",
+    "sanitize-html": "^2.4.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.0",
+    "supertest": "^6.1.3"
+  },
+  "author": "Reece Dixon",
+  "license": "Proprietary"
+}
+            
